@@ -13,7 +13,7 @@ function App() {
   const [statusFilter, setStatusFilter] = useState('all');
 
   // Replace with your Google Apps Script deployment URL
-  const APPS_SCRIPT_URL = '   https://script.google.com/a/macros/telus.com/s/AKfycbzbN4-BG2fsTjQ-9a1XoSxajuNDdoPntPIAsapnaTPXEMmN_qX0QU66stGFloiP7iGu/exec';
+  const APPS_SCRIPT_URL = 'https://script.google.com/a/macros/telus.com/s/AKfycbyL7WgsPqNPPaClJV4KiD1qWaaWlrPzngACQHmk8rL5cMiKmj7p4WQeuDNbX8TRSNm_/exec';
 
   useEffect(() => {
     fetchData();
